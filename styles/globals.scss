@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+html,
+body {
+  color: #333;
+  background-color: #eee;
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+input[type='email'],
+input[type='text'],
+input[type='password'],
+input[type='number'] {
+	font-size: 20px;
+	padding: 12px;
+	&:focus {
+		outline: none;
+	}
+}
